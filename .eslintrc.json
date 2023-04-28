@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": [
+        "google",
+        "prettier"
+      ],
+
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "ignorePatterns": [ "**/public/", "**/node_modules/"],
+    "rules": {
+        "require-jsdoc" : 0,
+        "new-cap": 0,
+        "semi": 1
+    }
+}
